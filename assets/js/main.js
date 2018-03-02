@@ -1,7 +1,7 @@
 function myFunction(){
 
     $.ajax({
-  url: 'http://acadprojects.com/py/explora/subject',
+  url: 'https://acadprojects.com/py/explora/subject',
   type: 'GET',
   success: function(response){
     console.log(response);
@@ -13,7 +13,7 @@ function myFunction(){
 
 
     $.ajax({
-      url: 'http://acadprojects.com/py/explora/question?page=0&type=trending',
+      url: 'https://acadprojects.com/py/explora/question?page=0&type=trending',
       type: 'GET',
       success: function(result){
         console.log(result);
@@ -25,7 +25,7 @@ function myFunction(){
     });
 
      $.ajax({
-      url: 'http://acadprojects.com/py/explora/question?page=0&type=trending',
+      url: 'https://acadprojects.com/py/explora/question?page=0&type=trending',
       type: 'GET',
       success: function(result){
         console.log(result);
@@ -59,7 +59,7 @@ function myFunction(){
 </div>        */
 
       $.ajax({
-      url: 'http://acadprojects.com/py/explora/question?page=0&type=trending',
+      url: 'https://acadprojects.com/py/explora/question?page=0&type=trending',
       type: 'GET',
       success: function(result){
         console.log(result);
